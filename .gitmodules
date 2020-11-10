@@ -1,0 +1,3 @@
+[submodule "deps/cloud-dataproc"]
+	path = deps/cloud-dataproc
+	url = git@github.com:GoogleCloudPlatform/cloud-dataproc.git

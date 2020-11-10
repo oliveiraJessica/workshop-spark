@@ -1,0 +1,5 @@
+security:
+  encryption:
+    bits: 256
+    length: 12  # truncate hash lengths, for storage cost control purposes
+    token: a438ba5f-c6e4-404c-aa5d-6858403afdc9

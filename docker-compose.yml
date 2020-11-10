@@ -1,0 +1,13 @@
+version: '3'
+services:
+  workshop_spark:
+    image: jupyter/pyspark-notebook
+    env_file:
+      - config/$ENV/.env
+    ports:
+      - 127.0.0.1:$JUPYTER_PORT:$JUPYTER_PORT
+      - 0.0.0.0:$SPARK_UI_PORT:$SPARK_UI_PORT
+    volumes:
+      - ./config/$ENV:/home/jovyan/config
+      - ./notebooks:/home/jovyan/work
+      - ./datalake:/home/jovyan/work/datalake
