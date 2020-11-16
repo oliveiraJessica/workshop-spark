@@ -1,9 +1,0 @@
-lakes:
-  transient: 'gs://dna_workshop_spark/transient'
-  raw: 'gs://dna_workshop_spark/raw'
-  trusted: 'gs://dna_workshop_spark/trusted'
-  refined: 'gs://dna_workshop_spark/refined'
-  models: 'gs://dna_workshop_spark/models'
-  backup: 'gs://dna_workshop_spark/backup'
-  secrets: 'gs://dna_workshop_spark/secrets'
-  config: 'gs://dna_workshop_spark/config'

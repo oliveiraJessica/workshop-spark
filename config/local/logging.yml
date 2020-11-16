@@ -1,4 +1,0 @@
-logging:
-  default:
-    level: DEBUG
-    format: '%(message)s'

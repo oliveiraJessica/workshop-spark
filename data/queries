@@ -1,0 +1,3 @@
+SELECT * FROM `basedosdados.br_ibge_nomes_brasil.quantidade_municipio_nome_2010`
+SELECT * FROM `basedosdados.br_ibge_populacao.municipios`
+SELECT * FROM `basedosdados.br_basedosdados_diretorios_brasil.municipios`
