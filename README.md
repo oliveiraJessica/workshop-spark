@@ -5,7 +5,7 @@ Esse repositório contém alguns notebooks utilizados em workshops sobre pyspark
 O ambiente de desenvolvimento utiliza um container com pyspakr e jupyter-notebook. 
 
 ## Pré-requisito
-É necessário ter [`docker-compose`](https://docs.docker.com/compose/install/)
+É necessário ter [`docker-compose`](https://docs.docker.com/compose/install/) instalado para utilizar o ambiente.
 
 
 ## Utilização
